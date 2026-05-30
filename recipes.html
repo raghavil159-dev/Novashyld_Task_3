@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Recipes</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<header>
+
+    <h2>
+        <span id="head">🍴 Smart </span>
+        <span id="head1">Recipe Finder</span>
+    </h2>
+
+    <nav>
+
+        <p><a href="index.html">Home</a></p>
+
+        <p><a href="recipes.html">Recipes</a></p>
+
+        <p><a href="ai.html">AI Generator</a></p>
+
+        <p><a href="contact.html">Contact</a></p>
+
+    </nav>
+
+</header>
+
+
+<section class="recipe-page">
+
+    <center>
+        <h1>Popular Recipes 🍽</h1>
+    </center>
+
+
+    <!-- CATEGORY BUTTONS -->
+
+    <div class="category-buttons">
+
+        <button onclick="searchCategory('Breakfast')">
+            Breakfast
+        </button>
+
+        <button onclick="searchCategory('Lunch')">
+            Lunch
+        </button>
+
+        <button onclick="searchCategory('Snacks')">
+            Snacks
+        </button>
+
+        <button onclick="searchCategory('Chicken')">
+            Chicken
+        </button>
+
+        <button onclick="searchCategory('Seafood')">
+            Seafood
+        </button>
+
+        <button onclick="searchCategory('Dessert')">
+            Dessert
+        </button>
+
+        <button onclick="searchCategory('Vegetarian')">
+            Vegetarian
+        </button>
+
+    </div>
+
+
+    <!-- RECIPE CARDS -->
+
+    <section id="recipe-cards">
+
+    </section>
+
+</section>
+
+<script src="recipe.js"></script>
+
+</body>
+</html>
