@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Smart Recipe Finder</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h2>
+        <span id="head"><i class="fa-solid fa-utensils"></i>Smart </span>
+        <span id="head1">Recipe Finder</span>
+        </h2>
+        
+       <nav>
+      
+            <p><a href="#" id="home-btn">Home</a></p>
+            <p><a href="#" id="recipes-btn">Recipies</a></p>
+            <p><a href="#" id="ai-btn">AI Generator</a></p>
+            <p><a href="#" id="contact-btn">Contact</a></p>
+       </nav>
+       </header>
+       <main>
+        <section id="hero">
+          <div id="main">
+          <h3>
+            <span id="cook">Cook Smart With</span>
+            <span id="ai">AI</span>
+          </h3>
+          <p>Find delicious recipies using 
+            <br>
+            ingredients you already have.</p>
+
+            <button id="exp">Explore Recipies</button>
+            <button id="gen">Try AI Generator</button>
+          </div>
+        <div class="card3">
+          <div class="carousel">
+            
+             <img class="slide active" src="../public/images/img.png" />
+             <img class="slide" src="../public/images/img1.png" />
+             <img class="slide" src="../public/images/img2.png" />
+             <img class="slide" src="../public/images/img3.png" />
+             <img class="slide" src="../public/images/img4.png" />
+             <img class="slide" src="../public/images/img5.png" />
+             <img class="slide" src="../public/images/img6.png" />
+             <img class="slide" src="../public/images/img7.png" />
+             <img class="slide" src="./images/img8.png" />
+             <img class="slide" src="../public/images/img9.png" />
+            
+
+          </div>
+
+          
+        <div class="dots">
+          <span class="dot active"></span>
+          <span class="dot"></span>
+          <span class="dot"></span>
+          <span class="dot"></span>
+          <span class="dot"></span>
+          <span class="dot"></span>
+          <span class="dot"></span>
+          <span class="dot"></span>
+          <span class="dot"></span>
+          <span class="dot"></span>
+        </div>
+      </div>
+          
+        </section>
+        <div id="search-box">
+        <input id="search" placeholder="Search recipies by ingredients...">
+        <button id="search-btn" onclick="searchFood()">Search</button>
+        <div id="results"></div>
+      </div>
+
+        <footer id="categories">
+          <h3>Popular Categories</h3>
+          <div id="cards">
+            <div id="card">
+              <img src="../public/images/indian.png" alt="india" />
+              <p>Indian</p>
+            </div>
+            <div id="card">
+              <img src="../public/images/chinese1.png" alt="chinese" />
+              <p>Chinese</p>
+            </div>
+            <div id="card">  
+              <img src="../public/images/italian1.png" alt="italian" />
+              <p>Italian</p>
+            </div>
+            <div id="card">  
+              <img src="../public/images/desserts.png" alt="dessert" />
+              <p>Desserts</p>
+            </div>
+            <div id="card">  
+              <img src="../public/images/healthy1.png" alt="healthy" />
+              <p>Healthy</p>
+            </div>  
+            </div>
+
+          </div>
+
+        </footer>
+       </main>
+       <script src="index.js"></script>
+</body>  
+</html>     
